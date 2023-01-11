@@ -1,0 +1,68 @@
+body {
+background-color: black;
+margin: 0;
+color:whitesmoke;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.container{
+     background-color: darkblue;
+     padding: 3rem;
+     border-radius: 1rem;
+     border: 2px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+
+}
+
+.form{
+ display: grid;
+ grid-template-columns: auto auto;
+ row-gap: 1rem;
+ column-gap: 3rem;
+ justify-content: center;
+ align-items: center;
+}
+
+.character-amount-container{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    margin: o;
+    text-align:center;
+}
+
+.password-display{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border-radius: .5rem;
+}
+
+.btn{
+   grid-column: span 2;
+   background-color: transparent; 
+   border: 2px solid white;
+   padding: .5rem 1rem;
+   font-weight: bold;
+   cursor: pointer;
+   border-radius: 1rem;
+
+}
+
+.btn:hover{
+    background-color:red ;
+}
